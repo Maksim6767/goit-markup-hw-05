@@ -52,7 +52,7 @@
     <!-- Герой -->
     <section class="hero overlay">
         <h1 class="hero-title" >Эффективные решения <br />для вашего бизнеса</h1>
-        <button type="button" class="button">Заказать услугу</button> 
+        <button data-modal-open type="button" class="button">Заказать услугу</button> 
     </section >
      
     <!-- <h2>Наши преимущества</h2> -->
@@ -420,5 +420,16 @@
         </div>
     </div>
 </footer>
+
+<!-- Модальное окно -->
+
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button data-modal-close class="close-button">x</button>
+    </div>
+</div>
+
+<script src="./js/modal.js"></script>
+
 </body>
 </html>
